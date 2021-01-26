@@ -31,11 +31,11 @@ Neural Turing Machines combine a RNN with an external memory store in order to N
 
 ## Results
 
-![main](/imaages/CNP-Example.png)
+![main](/images/CNP-Example.png)
 
 ### Comparison with Neural Networks 
 
-![main](/imaages/NN.png)
+![main](/images/NN.png)
 
 ## References
 
