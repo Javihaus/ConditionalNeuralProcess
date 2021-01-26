@@ -1,5 +1,4 @@
 # ConditionalNeuralProcesses
-Conditional Neural Process
 
 In this repo we have applied Conditional Neural Processes to time series prediction. This work is based on the work from Amsterdam Machine Learning lab (https://github.com/AMLab-Amsterdam/FNP)
 
