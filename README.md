@@ -22,7 +22,6 @@ Functional Neural Processes (FNP) don't require explicit global latent variables
 ## Attention Mechanism
 
 An Attention Mechanism (AM) enables a neural network to focus only on relevant parts of input data instead of trying to deal with all data when doing a prediction task. AM learns in witch part of the dataset in a similar way than Neural Turing Machines (NTM), it is focusing everywhere, just to different extents.
-Source: https://github.com/Javihaus/Advanced-Time-series-analysis/blob/main/RNN_Pytorch.ipynb
 Neural Turing Machines combine a RNN with an external memory store in order to Neural Network write and read from this memory everywhere, just to different extents at each step. Instead of specifying a single location, the RNN outputs an 'attention distribution' that describes how we spread out the amount we care about different memory positions. With the same logic an 'attention distribution' describes how much we write at every location. We do this by having the new value of a position in memory be a convex combination of the old memory content and the write value, with the position between the two decided by the attention weight. To decide which positions in memory to focus their attention on, an NTM use a combination of two different methods:
 
 - Content-based attention. Search through their memory and focus on places that match what they’re looking for.
@@ -35,6 +34,8 @@ Neural Turing Machines combine a RNN with an external memory store in order to N
 ### Comparison with Neural Networks 
 
 ![main](/images/NN.png)
+
+Source: https://github.com/Javihaus/Advanced-Time-series-analysis/blob/main/RNN_Pytorch.ipynb
 
 ## References
 
