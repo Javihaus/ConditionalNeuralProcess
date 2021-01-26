@@ -12,9 +12,9 @@ A neural network (NN) is a parameterised function that can be tuned via gradient
 
 Neural Processes (NP) are a class of neural latent variable models that:
 
-    defines distributions over functions,
-    capable of rapid adaptation to new observations, and
-    can estimate the uncertainty in their predictions (just as GP do).
+- defines distributions over functions,
+- capable of rapid adaptation to new observations, and
+- can estimate the uncertainty in their predictions (just as GP do).
 
 ## Differences betwen NP, ANP and FNP
 
