@@ -1,7 +1,7 @@
 # ConditionalNeuralProcesses
 Conditional Neural Process
 
-In this repo we have applied Conditional Neural Processes to time series prediction. This work is based on 
+In this repo we have applied Conditional Neural Processes to time series prediction. This work is based on the work from Amsterdam Machine Learning lab.
 
 
 # The Functional Neural Process (FNP)
@@ -34,9 +34,9 @@ imagen.png
 
 FNP assumes a distribution over functions $h∈H$, from $x$ to $y$, by first selecting a 'reference' set of points from $X$,and then basing the probability distribution over $h$ around those points. Instead of following the process of NP (encode, aggregate and decode), in FNP there are two steps:
 
-    - Embedding the inputs $(x_i,y_i) ∈ D$ and $x_i ∈ X$ to a latent space $U$. We compute $p(x|u)$
-    - Constructing a graph of dependencies in the embedding space. We compute $p(G,A|U)$
-    - Parametrizing the predictive distribution that we will use to to perform predictions for unseen points $x^*$. We compute $p(Z|A,G,R,y_R)$ and $p(y|Z)$.
+- Embedding the inputs $(x_i,y_i)$ ∈ $D$ and $x_i$ ∈ $X$ to a latent space $U$. We compute $p(x|u)$
+- Constructing a graph of dependencies in the embedding space. We compute $p(G,A|U)$
+- Parametrizing the predictive distribution that we will use to to perform predictions for unseen points $x^*$. We compute $p(Z|A,G,R,y_R)$ and $p(y|Z)$.
 
 ## FNP and FNP+ models
 
